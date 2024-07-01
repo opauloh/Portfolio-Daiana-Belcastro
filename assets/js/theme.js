@@ -85,7 +85,7 @@
 	if ($("body").hasClass("tt-transition")) {
 		
 		// Wait until the whole page is loaded.
-		$(window).on("load", function () {
+		$(document).ready(function() {
 			setTimeout(function(){
 				HideLoad(); // call out animations.
 			}, 0);
